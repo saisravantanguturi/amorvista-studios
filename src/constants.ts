@@ -20,7 +20,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Abhinay", 
     role: "Co-Founder", 
     specialties: ["Photography", "Videography", "Editing"],
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=900&auto=format&fit=crop&q=80"
+    image: "/abi_back.jpeg",
+    characterImage: "/abi_front.png"
+
   },
   { 
     name: "Abraz", 
@@ -39,9 +41,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Raviteja", 
     role: "Lead Photographer", 
     specialties: [],
-    image: "/jay_back.jpeg", 
+    image: "/ravi_back.jpeg", 
     // The front character pop-out image (Note the .png extension)
-    characterImage: "/jay_front.png" 
+    characterImage: "/ravi_front.png" 
   },
   { 
     name: "Navneeth", 
