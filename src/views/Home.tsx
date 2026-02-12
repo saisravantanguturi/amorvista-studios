@@ -38,7 +38,7 @@ const Home: React.FC = () => {
       <section id="about" className="py-24 px-6 md:px-20 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
-             <img src="https://img.sanishtech.com/u/3c90a00fcd7510fc1c5e676db48260ad.png" alt="Studio Life" className="w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+             <img src="/av_bw.png" alt="Studio Life" className="w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700" />
           </div>
           <div className="order-1 md:order-2">
             <h2 className="text-4xl md:text-5xl font-serif mb-8">The Story</h2>
