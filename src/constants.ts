@@ -14,7 +14,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     specialties: ["Photography", "Videography", "Editing"],
     // Updated images for Sai Sravan
     image: "/sravan_back.jpeg",
-    characterImage: "/sravan_back-removebg-preview.png"
+    characterImage: "/sravan_front.png"
   },
   { 
     name: "Abhinay", 
