@@ -15,7 +15,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     // Base image for the card background
     image: "/sravan_back.jpg",
     // Transparent cutout for the 3D pop-out effect
-    characterImage: "https://img.sanishtech.com/u/ad5d47a78c4238b5c5a0cb5a558954e8.png"
+    characterImage: "/sravan_front.jpg"
   },
   { 
     name: "Abhinay", 
