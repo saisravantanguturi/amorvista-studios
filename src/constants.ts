@@ -12,10 +12,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Sai Sravan", 
     role: "Founder", 
     specialties: ["Photography", "Videography", "Editing"],
-    // Base image for the card background
+    // Updated images for Sai Sravan
     image: "/sravan_back.jpeg",
-    // Transparent cutout for the 3D pop-out effect
-    characterImage: "/sravan_front."
+    characterImage: "/sravan_front.png"
   },
   { 
     name: "Abhinay", 
@@ -40,6 +39,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: "Lead Photographer", 
     specialties: [],
     image: "/jayanth_back.png", 
+    // The front character pop-out image (Note the .png extension)
     characterImage: "/jayanth_front.png" 
   },
   { 
@@ -52,7 +52,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Jayanth", 
     role: "Lead Editor", 
     specialties: [],
-    image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&h=900&auto=format&fit=crop&q=80"
+    // Updated images for Jayanth
+    image: "/jayanth_back.jpeg",
+    characterImage: "/jayanth_front.png" 
   },
   { 
     name: "Jahnavi", 
