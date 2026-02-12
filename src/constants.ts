@@ -38,9 +38,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Raviteja", 
     role: "Lead Photographer", 
     specialties: [],
-    image: "/jayanth_back.png", 
+    image: "/jay_back.jpeg", 
     // The front character pop-out image (Note the .png extension)
-    characterImage: "/jayanth_front.png" 
+    characterImage: "/jay_front.png" 
   },
   { 
     name: "Navneeth", 
@@ -51,10 +51,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
   { 
     name: "Jayanth", 
     role: "Lead Editor", 
-    specialties: [],
-    // Updated images for Jayanth
-    image: "/jayanth_back.jpeg",
-    characterImage: "/jayanth_front.png" 
+    specialties: ["Strategy", "Design", "Development"],
+    image: "/jay_back.jpeg",
+    characterImage: "/jay_front.png" 
   },
   { 
     name: "Jahnavi", 
