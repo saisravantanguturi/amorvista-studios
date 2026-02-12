@@ -20,8 +20,9 @@ export interface Testimonial {
 export interface Album {
   title: string;
   slug: string;
-  coverImage: string;
   category: string;
+  coverImage: string;
+  images?: string[];
 }
 
 export interface ImageSlide {
