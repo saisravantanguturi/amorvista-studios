@@ -5,6 +5,7 @@ import ImageSlider from '../components/ImageSlider';
 import InteractiveCard from '../components/InteractiveCard';
 import ImageAutoSlider from '../components/ImageAutoSlider';
 import { TEAM_MEMBERS, SERVICES, TESTIMONIALS, ALBUMS } from '../constants';
+import TestimonialScroll from '../components/TestimonialScroll';
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -246,7 +247,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
+      <TestimonialScroll />
       <section className="py-24 bg-beige px-6">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-3 gap-12">

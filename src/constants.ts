@@ -89,7 +89,64 @@ export const ALBUMS: Album[] = [
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
-  { name: "Ananya Rao", text: "AmorVista transformed our wedding into a cinematic masterpiece. Sai and his team were invisible yet everywhere.", role: "Bride" },
-  { name: "Karthik Reddy", text: "The energy they captured at VITOPIA was unmatched. Every photo tells a story.", role: "Event Organizer" },
-  { name: "Meera Kapoor", text: "Professional, punctual, and incredibly talented. My portfolio looks international standard.", role: "Model" },
+  { 
+    name: "Arjun & Sneha", 
+    text: "Sravan and his team covered our wedding in Vizag so beautifully. They didn’t just take photos, they captured emotions.", 
+    role: "Couple" 
+  },
+  { 
+    name: "Lakshmi Narayana", 
+    text: "We chose AmorVista for my daughter’s half-saree function, and they truly understood the traditional feel we wanted. Every moment was captured perfectly.", 
+    role: "Parent" 
+  },
+  { 
+    name: "Karthik Reddy", 
+    text: "The candid shots from our reception came out so natural. The team was calm, professional, and easy to work with.", 
+    role: "Groom" 
+  },
+  { 
+    name: "Priya Darshini", 
+    text: "Our pre-wedding shoot in Araku was such a great experience. The cinematic video still gives us goosebumps whenever we watch it.", 
+    role: "Bride" 
+  },
+  { 
+    name: "Swathi & Manoj", 
+    text: "We were nervous about posing, but they made us feel completely comfortable. The final photos are something we’ll always cherish.", 
+    role: "Couple" 
+  },
+  { 
+    name: "Deepa Krishna", 
+    text: "The editing team did an incredible job on my portfolio. The final result looks straight out of a fashion magazine.", 
+    role: "Model" 
+  },
+  { 
+    name: "Vamsi Chowdhary", 
+    text: "Very punctual and super creative. They handled the chaos of our event without missing a single important moment.", 
+    role: "Event Planner" 
+  },
+  { 
+    name: "Anusha Verma", 
+    text: "The album quality genuinely surprised us. The prints, the finishing, everything felt premium.", 
+    role: "Client" 
+  },
+  { 
+    name: "Chaitanya", 
+    text: "The teaser video for our college fest turned out amazing. It got a lot of attention online too.", 
+    role: "Student Convener" 
+  },
+  { 
+    name: "Ananya Rao", 
+    text: "AmorVista turned our wedding into something we’ll never forget. Sai and the team were so smooth in their work, we barely noticed them around.", 
+    role: "Bride" 
+  },
+  { 
+    name: "Karthik Reddy", 
+    text: "The energy they captured at VITOPIA was next level. Every frame felt alive.", 
+    role: "Event Organizer" 
+  },
+  { 
+    name: "Meera Kapoor", 
+    text: "Very professional and easy to coordinate with. My portfolio now looks clean, sharp, and international level.", 
+    role: "Model" 
+  },
 ];
