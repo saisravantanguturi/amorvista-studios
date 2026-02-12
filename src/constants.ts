@@ -81,7 +81,7 @@ export const SERVICES: Service[] = [
 ];
 
 export const ALBUMS: Album[] = [
-  { title: "Birthdays", slug: "birthdays", category: "Celebration", coverImage: "https://picsum.photos/800/600?random=14" },
+  { title: "Birthdays", slug: "birthdays", category: "Celebration", coverImage: "/w_bday1.jpeg" },
   { title: "Cultural Fests", slug: "cultural-fests", category: "Events", coverImage: "https://picsum.photos/800/600?random=11" },
   { title: "Model Shoots", slug: "model-shoots", category: "Fashion", coverImage: "https://picsum.photos/800/600?random=13" },
   { title: "Corporate Events", slug: "events", category: "Corporate", coverImage: "https://picsum.photos/800/600?random=12" },
