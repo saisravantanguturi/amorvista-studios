@@ -248,25 +248,7 @@ const Home: React.FC = () => {
       </section>
 
       <TestimonialScroll />
-      <section className="py-24 bg-beige px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-12">
-            {TESTIMONIALS.map((t, idx) => (
-              <div key={idx} className="bg-white p-8 shadow-sm">
-                <div className="text-4xl text-serif text-gray-300 mb-4">"</div>
-                <p className="text-gray-800 font-sans italic leading-relaxed mb-6">
-                  {t.text}
-                </p>
-                <div>
-                  <h4 className="font-serif font-bold text-lg">{t.name}</h4>
-                  <p className="text-xs uppercase tracking-wide text-gray-500">{t.role}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Contact Section */}
       <section id="contact" className="py-24 px-6 md:px-20 max-w-4xl mx-auto text-center">
         <h2 className="text-5xl md:text-6xl font-serif mb-8">Let's Create</h2>
