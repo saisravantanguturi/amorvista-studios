@@ -14,7 +14,7 @@ const ImageAutoSlider: React.FC = () => {
     <section className="py-12 bg-black overflow-hidden border-y border-white/10 relative z-10">
        <div className="flex w-full group">
           {/* First Loop */}
-          <div className="flex animate-scroll gap-6 pr-6 shrink-0 group-hover:[animation-play-state:paused]">
+          <div className="flex animate-scroll-fast gap-6 pr-6 shrink-0 group-hover:[animation-play-state:paused]">
               {IMAGES.map((src, i) => (
                   <div key={i} className="w-[280px] h-[180px] md:w-[400px] md:h-[260px] relative rounded-md overflow-hidden grayscale hover:grayscale-0 transition-all duration-500 shrink-0 cursor-pointer group/image">
                       <img
@@ -27,7 +27,7 @@ const ImageAutoSlider: React.FC = () => {
               ))}
           </div>
           {/* Second Loop (Duplicate for seamless effect) */}
-          <div className="flex animate-scroll gap-6 pr-6 shrink-0 group-hover:[animation-play-state:paused]" aria-hidden="true">
+          <div className="flex animate-scroll-fast gap-6 pr-6 shrink-0 group-hover:[animation-play-state:paused]" aria-hidden="true">
               {IMAGES.map((src, i) => (
                   <div key={i} className="w-[280px] h-[180px] md:w-[400px] md:h-[260px] relative rounded-md overflow-hidden grayscale hover:grayscale-0 transition-all duration-500 shrink-0 cursor-pointer group/image">
                       <img

@@ -11,7 +11,7 @@ const TestimonialScroll: React.FC = () => {
 
       <div className="flex w-full overflow-hidden mask-linear-gradient relative">
          {/* We duplicate the list to create an infinite loop effect */}
-         <div className="flex animate-scroll gap-6 pr-6 w-max hover:[animation-play-state:paused]">
+         <div className="flex animate-scroll-slow gap-6 pr-6 w-max hover:[animation-play-state:paused]">
             {[...TESTIMONIALS, ...TESTIMONIALS, ...TESTIMONIALS, ...TESTIMONIALS].map((t, i) => (
                 <div key={i} className="w-[350px] md:w-[450px] bg-white p-8 shadow-sm flex-shrink-0 border border-gray-100/50">
                     <div className="text-4xl font-serif text-gray-300 mb-4">"</div>
