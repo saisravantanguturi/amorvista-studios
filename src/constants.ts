@@ -81,23 +81,24 @@ export const SERVICES: Service[] = [
 ];
 
 export const ALBUMS: Album[] = [
-  { 
+{ 
     title: "Birthdays", 
     slug: "birthdays", 
     category: "Celebration", 
-    coverImage: "/w_bday1.jpg", // Assuming w_bday1 is the cover
+    // Assuming the cover is also .jpeg based on your request
+    coverImage: "/w_bday1.jpeg", 
     images: [
-      "/w_bday2.jpg", "/w_bday3.jpg", "/w_bday4.jpg", "/w_bday5.jpg", 
-      "/w_bday6.jpg", "/w_bday7.jpg", "/w_bday8.jpg", "/w_bday9.jpg", 
-      "/w_bday10.jpg", "/w_bday11.jpg", "/w_bday12.jpg", "/w_bday13.jpg", 
-      "/w_bday14.jpg", "/w_bday15.jpg", "/w_bday16.jpg", "/w_bday17.jpg", 
-      "/w_bday18.jpg", "/w_bday19.jpg", "/w_bday20.jpg", "/w_bday21.jpg", 
-      "/w_bday22.jpg", "/w_bday23.jpg", "/w_bday24.jpg", "/w_bday25.jpg", 
-      "/w_bday26.jpg", "/w_bday27.jpg", "/w_bday28.jpg", "/w_bday29.jpg", 
-      "/w_bday30.jpg", "/w_bday31.jpg", "/w_bday32.jpg", "/w_bday33.jpg", 
-      "/w_bday34.jpg", "/w_bday35.jpg", "/w_bday36.jpg", "/w_bday37.jpg", 
-      "/w_bday38.jpg", "/w_bday39.jpg", "/w_bday40.jpg", "/w_bday41.jpg", 
-      "/w_bday42.jpg", "/w_bday43.jpg", "/w_bday44.jpg", "/w_bday45.jpg"
+      "/w_bday2.jpeg", "/w_bday3.jpeg", "/w_bday4.jpeg", "/w_bday5.jpeg", 
+      "/w_bday6.jpeg", "/w_bday7.jpeg", "/w_bday8.jpeg", "/w_bday9.jpeg", 
+      "/w_bday10.jpeg", "/w_bday11.jpeg", "/w_bday12.jpeg", "/w_bday13.jpeg", 
+      "/w_bday14.jpeg", "/w_bday15.jpeg", "/w_bday16.jpeg", "/w_bday17.jpeg", 
+      "/w_bday18.jpeg", "/w_bday19.jpeg", "/w_bday20.jpeg", "/w_bday21.jpeg", 
+      "/w_bday22.jpeg", "/w_bday23.jpeg", "/w_bday24.jpeg", "/w_bday25.jpeg", 
+      "/w_bday26.jpeg", "/w_bday27.jpeg", "/w_bday28.jpeg", "/w_bday29.jpeg", 
+      "/w_bday30.jpeg", "/w_bday31.jpeg", "/w_bday32.jpeg", "/w_bday33.jpeg", 
+      "/w_bday34.jpeg", "/w_bday35.jpeg", "/w_bday36.jpeg", "/w_bday37.jpeg", 
+      "/w_bday38.jpeg", "/w_bday39.jpeg", "/w_bday40.jpeg", "/w_bday41.jpeg", 
+      "/w_bday42.jpeg", "/w_bday43.jpeg", "/w_bday44.jpeg", "/w_bday45.jpeg"
     ]
   },
   { title: "Cultural Fests", slug: "cultural-fests", category: "Events", coverImage: "https://picsum.photos/800/600?random=11" },
