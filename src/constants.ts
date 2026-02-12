@@ -26,7 +26,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Abraz", 
     role: "Co-Founder", 
     specialties: ["Photography", "Editing"],
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=900&auto=format&fit=crop&q=80"
+    image: "/ab_back.jpeg",
+    characterImage: "/ab_front.png"
   },
   { 
     name: "Koushik", 
@@ -46,7 +47,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Navneeth", 
     role: "Lead Videographer", 
     specialties: [],
-    image: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=600&h=900&auto=format&fit=crop&q=80"
+    image: "/nav_back.jpeg",
+    characterImage: "/nav_front.png"
   },
   { 
     name: "Jayanth", 
@@ -59,7 +61,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Jahnavi", 
     role: "Lead Designer", 
     specialties: [],
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&h=900&auto=format&fit=crop&q=80"
+    image: "/jan_back.jpeg",
+    characterImage: "/jan_front.png"
   },
 ];
 
