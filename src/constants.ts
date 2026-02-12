@@ -15,7 +15,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     // Base image for the card background
     image: "/sravan_back.jpeg",
     // Transparent cutout for the 3D pop-out effect
-    characterImage: "/sravan_front.png"
+    characterImage: "/sravan_front."
   },
   { 
     name: "Abhinay", 
@@ -39,7 +39,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: "Raviteja", 
     role: "Lead Photographer", 
     specialties: [],
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&h=900&auto=format&fit=crop&q=80"
+    image: "/jayanth_back.png", 
+    characterImage: "/jayanth_front.png" 
   },
   { 
     name: "Navneeth", 
