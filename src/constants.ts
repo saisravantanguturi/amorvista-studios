@@ -82,6 +82,26 @@ export const SERVICES: Service[] = [
 
 export const ALBUMS: Album[] = [
   { 
+    title: "Birthdays", 
+    // FIXED: Slugs cannot have spaces or capital letters, or the link will break!
+    slug: "baby-shoots", 
+    category: "Celebration", 
+    coverImage: "/w_bday1.jpeg", 
+    images: [
+      "/w_bday2.jpeg", "/w_bday3.jpeg", "/w_bday4.jpeg", "/w_bday5.jpeg", 
+      "/w_bday6.jpeg", "/w_bday7.jpeg", "/w_bday8.jpeg", "/w_bday9.jpeg", 
+      "/w_bday10.jpeg", "/w_bday11.jpeg", "/w_bday12.jpeg", "/w_bday13.jpeg", 
+      "/w_bday14.jpeg", "/w_bday15.jpeg", "/w_bday16.jpeg", "/w_bday17.jpeg", 
+      "/w_bday18.jpeg", "/w_bday19.jpeg", "/w_bday20.jpeg", "/w_bday21.jpeg", 
+      "/w_bday22.jpeg", "/w_bday23.jpeg", "/w_bday24.jpeg", "/w_bday25.jpeg", 
+      "/w_bday26.jpeg", "/w_bday27.jpeg", "/w_bday28.jpeg", "/w_bday29.jpeg", 
+      "/w_bday30.jpeg", "/w_bday31.jpeg", "/w_bday32.jpeg", "/w_bday33.jpeg", 
+      "/w_bday34.jpeg", "/w_bday35.jpeg", "/w_bday36.jpeg", "/w_bday37.jpeg", 
+      "/w_bday38.jpeg", "/w_bday39.jpeg", "/w_bday40.jpeg", "/w_bday41.jpeg", 
+      "/w_bday42.jpeg", "/w_bday43.jpeg", "/w_bday44.jpeg", "/w_bday45.jpeg"
+    ]
+  },
+{ 
     title: "Cultural Fests", 
     slug: "cultural-fests", 
     category: "Events", 
@@ -106,26 +126,7 @@ export const ALBUMS: Album[] = [
       "/cf_076.JPG", "/cf_077.JPG", "/cf_078.JPG"
     ]
   },
-  { 
-    title: "Birthdays", 
-    // FIXED: Slugs cannot have spaces or capital letters, or the link will break!
-    slug: "baby-shoots", 
-    category: "Celebration", 
-    coverImage: "/w_bday1.jpeg", 
-    images: [
-      "/w_bday2.jpeg", "/w_bday3.jpeg", "/w_bday4.jpeg", "/w_bday5.jpeg", 
-      "/w_bday6.jpeg", "/w_bday7.jpeg", "/w_bday8.jpeg", "/w_bday9.jpeg", 
-      "/w_bday10.jpeg", "/w_bday11.jpeg", "/w_bday12.jpeg", "/w_bday13.jpeg", 
-      "/w_bday14.jpeg", "/w_bday15.jpeg", "/w_bday16.jpeg", "/w_bday17.jpeg", 
-      "/w_bday18.jpeg", "/w_bday19.jpeg", "/w_bday20.jpeg", "/w_bday21.jpeg", 
-      "/w_bday22.jpeg", "/w_bday23.jpeg", "/w_bday24.jpeg", "/w_bday25.jpeg", 
-      "/w_bday26.jpeg", "/w_bday27.jpeg", "/w_bday28.jpeg", "/w_bday29.jpeg", 
-      "/w_bday30.jpeg", "/w_bday31.jpeg", "/w_bday32.jpeg", "/w_bday33.jpeg", 
-      "/w_bday34.jpeg", "/w_bday35.jpeg", "/w_bday36.jpeg", "/w_bday37.jpeg", 
-      "/w_bday38.jpeg", "/w_bday39.jpeg", "/w_bday40.jpeg", "/w_bday41.jpeg", 
-      "/w_bday42.jpeg", "/w_bday43.jpeg", "/w_bday44.jpeg", "/w_bday45.jpeg"
-    ]
-  },
+  
   { 
     title: "Model Shoots", 
     slug: "model-shoots", 
