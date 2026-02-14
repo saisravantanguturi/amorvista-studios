@@ -6,9 +6,9 @@ const IMAGES = [
   '/s1.jpeg',
   '/s2.jpeg',
   '/s3.jpeg',
+  '/s7.jpeg',
   '/s4.png',
-  '/s5.jpeg',
-  '/s6.JPG',
+  '/s8.jpeg',
 ];
 
 const ImageAutoSlider: React.FC = () => {
