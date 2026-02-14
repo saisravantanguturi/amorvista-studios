@@ -73,6 +73,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
 ];
 
 export const SERVICES: Service[] = [
+  { title: "Personalized Reels", description: "Creative short-form videos tailored to your story and style." },
+  { title: "Personalized Photo Shoots", description: "Customized photography sessions designed around your vision." },
   { title: "Wedding Photography", description: "Capturing the eternal bond with cinematic elegance." },
   { title: "Wedding Cinematography", description: "Moving pictures that tell your unique love story." },
   { title: "Cultural Fest Coverage", description: "Documenting the vibrancy and energy of large-scale events." },
@@ -81,6 +83,8 @@ export const SERVICES: Service[] = [
   { title: "Corporate Events", description: "Professional coverage for brand launches and conferences." },
   { title: "Editing & Color Grading", description: "Industry-standard post-production services." },
 ];
+
+
 
 export const ALBUMS: Album[] = [
   { 
