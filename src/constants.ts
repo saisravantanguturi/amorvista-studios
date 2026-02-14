@@ -82,7 +82,7 @@ export const SERVICES: Service[] = [
 
 export const ALBUMS: Album[] = [
   { 
-    title: "Birthdays", 
+    title: "BIRTHDAYS", 
     // FIXED: Slugs cannot have spaces or capital letters, or the link will break!
     slug: "baby-shoots", 
     category: "Celebration", 
@@ -102,7 +102,7 @@ export const ALBUMS: Album[] = [
     ]
   },
 { 
-    title: "Cultural Fests", 
+    title: "VITOPIA", 
     slug: "cultural-fests", 
     category: "Events", 
     // FIXED: Trying a brighter photo and uppercase .JPG to match your computer
@@ -128,7 +128,7 @@ export const ALBUMS: Album[] = [
   },
   
   { 
-    title: "Model Shoots", 
+    title: "VGLAM", 
     slug: "model-shoots", 
     category: "Fashion", 
     coverImage: "/md_0299.JPG", // Using the first photo as the cover image
@@ -153,7 +153,7 @@ export const ALBUMS: Album[] = [
     ]
   },
   { 
-    title: "Corporate Events", 
+    title: "TEDx VIT-AP", 
     slug: "events", 
     category: "Corporate", 
     coverImage: "/cor_070.jpg", // Set to your specific request!
@@ -179,7 +179,22 @@ export const ALBUMS: Album[] = [
       "/cor_091.jpg", "/cor_092.jpg"
     ]
   },
-  { title: "Weddings", slug: "weddings", category: "Wedding", coverImage: "https://picsum.photos/800/600?random=10" },
+{ 
+    title: "NAADH", 
+    slug: "musical-event", 
+    category: "Musical event", 
+    coverImage: "/naa_019.jpg", // Using the first photo as the cover image
+    images: [
+      "/naa_001.jpg", "/naa_002.jpg", "/naa_003.jpg", "/naa_004.jpg", "/naa_005.jpg", 
+      "/naa_006.jpg", "/naa_007.jpg", "/naa_008.jpg", "/naa_009.jpg", "/naa_010.jpg",
+      "/naa_011.jpg", "/naa_012.jpg", "/naa_013.jpg", "/naa_014.jpg", "/naa_015.jpg",
+      "/naa_016.jpg", "/naa_017.jpg", "/naa_018.jpg", "/naa_019.jpg", "/naa_020.jpg",
+      "/naa_021.jpg", "/naa_022.jpg", "/naa_023.jpg", "/naa_024.jpg", "/naa_025.jpg",
+      "/naa_026.jpg", "/naa_027.jpg", "/naa_028.jpg", "/naa_029.jpg", "/naa_030.jpg",
+      "/naa_031.jpg", "/naa_032.jpg", "/naa_033.jpg", "/naa_034.jpg", "/naa_035.jpg",
+      "/naa_036.jpg", "/naa_037.jpg", "/naa_038.jpg"
+    ]
+  },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
