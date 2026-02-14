@@ -152,7 +152,33 @@ export const ALBUMS: Album[] = [
       "/md_081.JPG"
     ]
   },
-  { title: "Corporate Events", slug: "events", category: "Corporate", coverImage: "https://picsum.photos/800/600?random=12" },
+  { 
+    title: "Corporate Events", 
+    slug: "events", 
+    category: "Corporate", 
+    coverImage: "/cor_070.jpg", // Set to your specific request!
+    images: [
+      "/cor_001.jpg", "/cor_002.jpg", "/cor_003.jpg", "/cor_004.jpg", "/cor_005.jpg", 
+      "/cor_006.jpg", "/cor_007.jpg", "/cor_008.jpg", "/cor_009.jpg", "/cor_010.jpg",
+      "/cor_011.jpg", "/cor_012.jpg", "/cor_013.jpg", "/cor_014.jpg", "/cor_015.jpg",
+      "/cor_016.jpg", "/cor_017.jpg", "/cor_018.jpg", "/cor_019.jpg", "/cor_020.jpg",
+      "/cor_021.jpg", "/cor_022.jpg", "/cor_023.jpg", "/cor_024.jpg", "/cor_025.jpg",
+      "/cor_026.jpg", "/cor_027.jpg", "/cor_028.jpg", "/cor_029.jpg", "/cor_030.jpg",
+      "/cor_031.jpg", "/cor_032.jpg", "/cor_033.jpg", "/cor_034.jpg", "/cor_035.jpg",
+      "/cor_036.jpg", "/cor_037.jpg", "/cor_038.jpg", "/cor_039.jpg", "/cor_040.jpg",
+      "/cor_041.jpg", "/cor_042.jpg", "/cor_043.jpg", "/cor_044.jpg", "/cor_045.jpg",
+      "/cor_046.jpg", "/cor_047.jpg", "/cor_048.jpg", "/cor_049.jpg", "/cor_050.jpg",
+      "/cor_051.jpg", "/cor_052.jpg", "/cor_053.jpg", "/cor_054.jpg", "/cor_055.jpg",
+      "/cor_056.jpg", "/cor_057.jpg", "/cor_058.jpg", "/cor_059.jpg", "/cor_060.jpg",
+      "/cor_061.jpg", "/cor_062.jpg", "/cor_063.jpg", "/cor_064.jpg", "/cor_065.jpg",
+      "/cor_066.jpg", "/cor_067.jpg", "/cor_068.jpg", "/cor_069.jpg", "/cor_070.jpg",
+      "/cor_071.jpg", "/cor_072.jpg", "/cor_073.jpg", "/cor_074.jpg", "/cor_075.jpg",
+      "/cor_076.jpg", "/cor_077.jpg", "/cor_078.jpg", "/cor_079.jpg", "/cor_080.jpg",
+      "/cor_081.jpg", "/cor_082.jpg", "/cor_083.jpg", "/cor_084.jpg", "/cor_085.jpg",
+      "/cor_086.jpg", "/cor_087.jpg", "/cor_088.jpg", "/cor_089.jpg", "/cor_090.jpg",
+      "/cor_091.jpg", "/cor_092.jpg"
+    ]
+  },
   { title: "Weddings", slug: "weddings", category: "Wedding", coverImage: "https://picsum.photos/800/600?random=10" },
 ];
 
