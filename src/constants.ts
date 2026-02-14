@@ -85,7 +85,8 @@ export const ALBUMS: Album[] = [
     title: "Cultural Fests", 
     slug: "cultural-fests", 
     category: "Events", 
-    coverImage: "/cf_006.jpg", // Using the first image as the cover
+    // FIXED: Trying a brighter photo and uppercase .JPG to match your computer
+    coverImage: "/cf_015.JPG", 
     images: [
       "/cf_001.jpg", "/cf_002.jpg", "/cf_003.jpg", "/cf_004.jpg", "/cf_005.jpg", 
       "/cf_006.jpg", "/cf_007.jpg", "/cf_008.jpg", "/cf_009.jpg", "/cf_010.jpg",
@@ -105,12 +106,11 @@ export const ALBUMS: Album[] = [
       "/cf_076.jpg", "/cf_077.jpg", "/cf_078.jpg"
     ]
   },
-
-{ 
+  { 
     title: "Birthdays", 
-    slug: "Baby shoots", 
+    // FIXED: Slugs cannot have spaces or capital letters, or the link will break!
+    slug: "baby-shoots", 
     category: "Celebration", 
-    // Assuming the cover is also .jpeg based on your request
     coverImage: "/w_bday1.jpeg", 
     images: [
       "/w_bday2.jpeg", "/w_bday3.jpeg", "/w_bday4.jpeg", "/w_bday5.jpeg", 
@@ -126,7 +126,6 @@ export const ALBUMS: Album[] = [
       "/w_bday42.jpeg", "/w_bday43.jpeg", "/w_bday44.jpeg", "/w_bday45.jpeg"
     ]
   },
-
   { title: "Model Shoots", slug: "model-shoots", category: "Fashion", coverImage: "https://picsum.photos/800/600?random=13" },
   { title: "Corporate Events", slug: "events", category: "Corporate", coverImage: "https://picsum.photos/800/600?random=12" },
   { title: "Weddings", slug: "weddings", category: "Wedding", coverImage: "https://picsum.photos/800/600?random=10" },
