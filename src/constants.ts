@@ -1,12 +1,12 @@
 import { TeamMember, Service, Testimonial, Album, ImageSlide } from './types';
 
 export const HERO_IMAGES: ImageSlide[] = [
-  { url: "/hero_1.jpeg", alt: "Wedding Shoot" },  // <-- Change these to your actual file names!
-  { url: "/hero_2.jpeg", alt: "Cultural Event" },
-  { url: "/hero_3.jpeg", alt: "Model Shoot" },
-  { url: "/hero_4.jpeg", alt: "Corporate Event" },
-  { url: "/hero_5.jpeg", alt: "Model Shoot" },
-  { url: "/hero_6.jpeg", alt: "Corporate Event" },
+  { url: "/hero_1.jpg", alt: "Wedding Shoot" },  // <-- Change these to your actual file names!
+  { url: "/hero_2.jpg", alt: "Cultural Event" },
+  { url: "/hero_3.jpg", alt: "Model Shoot" },
+  { url: "/hero_4.jpg", alt: "Corporate Event" },
+  { url: "/hero_5.jpg", alt: "Model Shoot" },
+  { url: "/hero_6.jpg", alt: "Corporate Event" },
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
