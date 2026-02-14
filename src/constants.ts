@@ -86,7 +86,7 @@ export const ALBUMS: Album[] = [
     slug: "cultural-fests", 
     category: "Events", 
     // FIXED: Trying a brighter photo and uppercase .JPG to match your computer
-    coverImage: "/cf_015.JPG", 
+    coverImage: "/cf_006.JPG", 
     images: [
       "/cf_001.jpg", "/cf_002.jpg", "/cf_003.jpg", "/cf_004.jpg", "/cf_005.jpg", 
       "/cf_006.jpg", "/cf_007.jpg", "/cf_008.jpg", "/cf_009.jpg", "/cf_010.jpg",
