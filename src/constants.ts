@@ -126,7 +126,31 @@ export const ALBUMS: Album[] = [
       "/w_bday42.jpeg", "/w_bday43.jpeg", "/w_bday44.jpeg", "/w_bday45.jpeg"
     ]
   },
-  { title: "Model Shoots", slug: "model-shoots", category: "Fashion", coverImage: "https://picsum.photos/800/600?random=13" },
+  { 
+    title: "Model Shoots", 
+    slug: "model-shoots", 
+    category: "Fashion", 
+    coverImage: "/md_0299.JPG", // Using the first photo as the cover image
+    images: [
+      "/md_001.JPG", "/md_002.JPG", "/md_003.JPG", "/md_004.JPG", "/md_005.JPG", 
+      "/md_006.JPG", "/md_007.JPG", "/md_008.JPG", "/md_009.JPG", "/md_010.JPG",
+      "/md_011.JPG", "/md_012.JPG", "/md_013.JPG", "/md_014.JPG", "/md_015.JPG",
+      "/md_016.JPG", "/md_017.JPG", "/md_018.JPG", "/md_019.JPG", "/md_020.JPG",
+      "/md_021.JPG", "/md_022.JPG", "/md_023.JPG", "/md_024.JPG", "/md_025.JPG",
+      "/md_026.JPG", "/md_027.JPG", "/md_028.JPG", "/md_029.JPG", "/md_030.JPG",
+      "/md_031.JPG", "/md_032.JPG", "/md_033.JPG", "/md_034.JPG", "/md_035.JPG",
+      "/md_036.JPG", "/md_037.JPG", "/md_038.JPG", "/md_039.JPG", "/md_040.JPG",
+      "/md_041.JPG", "/md_042.JPG", "/md_043.JPG", "/md_044.JPG", "/md_045.JPG",
+      "/md_046.JPG", "/md_047.JPG", "/md_048.JPG", "/md_049.JPG", "/md_050.JPG",
+      "/md_051.JPG", "/md_052.JPG", "/md_053.JPG", "/md_054.JPG", "/md_055.JPG",
+      "/md_056.JPG", "/md_057.JPG", "/md_058.JPG", "/md_059.JPG", "/md_060.JPG",
+      "/md_061.JPG", "/md_062.JPG", "/md_063.JPG", "/md_064.JPG", "/md_065.JPG",
+      "/md_066.JPG", "/md_067.JPG", "/md_068.JPG", "/md_069.JPG", "/md_070.JPG",
+      "/md_071.JPG", "/md_072.JPG", "/md_073.JPG", "/md_074.JPG", "/md_075.JPG",
+      "/md_076.JPG", "/md_077.JPG", "/md_078.JPG", "/md_079.JPG", "/md_080.JPG",
+      "/md_081.JPG"
+    ]
+  },
   { title: "Corporate Events", slug: "events", category: "Corporate", coverImage: "https://picsum.photos/800/600?random=12" },
   { title: "Weddings", slug: "weddings", category: "Wedding", coverImage: "https://picsum.photos/800/600?random=10" },
 ];
