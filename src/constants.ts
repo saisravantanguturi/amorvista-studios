@@ -126,6 +126,22 @@ export const ALBUMS: Album[] = [
       "/cf_076.JPG", "/cf_077.JPG", "/cf_078.JPG"
     ]
   },
+{ 
+    title: "Apparel Shoots", 
+    slug: "apparel-shoots", 
+    category: "Merchandise", 
+    coverImage: "/1.1.jpg", // Using the first t-shirt as the cover image
+    images: [
+      "/1.1.jpg", "/1.2.jpg", "/1.3.jpg", "/1.4.jpg", 
+      "/2.1.jpg", "/2.2.jpg", "/2.3.jpg", "/2.4.jpg", "/2.5.jpg",
+      "/3.1.jpg", "/3.2.jpg", "/3.3.jpg", "/3.4.jpg",
+      "/4.1.jpg", "/4.2 enhanced.jpg", "/4.3.jpg",
+      "/5.1.jpg", "/5.2.jpg", "/5.3.jpg", "/5.4.jpg",
+      "/6.1.jpg", "/6.2.jpg", "/6.3.jpg",
+      "/7.1.jpg", "/7.2.jpg", "/7.3.jpg", "/7.4.jpg",
+      "/bons.jpg", "/DSC07210 (1).jpg"
+    ]
+  },
   
   { 
     title: "VGLAM", 
@@ -195,22 +211,7 @@ export const ALBUMS: Album[] = [
       "/naa_036.jpg", "/naa_037.jpg", "/naa_038.jpg"
     ]
   },
-{ 
-    title: "Apparel Shoots", 
-    slug: "apparel-shoots", 
-    category: "Merchandise", 
-    coverImage: "/1.1.jpg", // Using the first t-shirt as the cover image
-    images: [
-      "/1.1.jpg", "/1.2.jpg", "/1.3.jpg", "/1.4.jpg", 
-      "/2.1.jpg", "/2.2.jpg", "/2.3.jpg", "/2.4.jpg", "/2.5.jpg",
-      "/3.1.jpg", "/3.2.jpg", "/3.3.jpg", "/3.4.jpg",
-      "/4.1.jpg", "/4.2 enhanced.jpg", "/4.3.jpg",
-      "/5.1.jpg", "/5.2.jpg", "/5.3.jpg", "/5.4.jpg",
-      "/6.1.jpg", "/6.2.jpg", "/6.3.jpg",
-      "/7.1.jpg", "/7.2.jpg", "/7.3.jpg", "/7.4.jpg",
-      "/bons.jpg", "/DSC07210 (1).jpg"
-    ]
-  },
+
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
