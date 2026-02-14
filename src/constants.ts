@@ -5,7 +5,7 @@ export const HERO_IMAGES: ImageSlide[] = [
   { url: "/h3.jpeg", alt: "Cultural Event" },  // hero_1.jpg
   { url: "/h1.jpeg", alt: "Model Shoot" },   // hero_2.jpg
   { url: "/h7.jpeg", alt: "Corporate Event" },
-  { url: "/h8.jpeg", alt: "Model Shoot" },
+  { url: "/h6.jpeg", alt: "Model Shoot" },
   { url: "/h2.jpeg", alt: "Corporate Event" },
 ];
 
