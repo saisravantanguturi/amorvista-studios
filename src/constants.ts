@@ -81,9 +81,34 @@ export const SERVICES: Service[] = [
 ];
 
 export const ALBUMS: Album[] = [
+  { 
+    title: "Cultural Fests", 
+    slug: "cultural-fests", 
+    category: "Events", 
+    coverImage: "/cf_006.jpg", // Using the first image as the cover
+    images: [
+      "/cf_001.jpg", "/cf_002.jpg", "/cf_003.jpg", "/cf_004.jpg", "/cf_005.jpg", 
+      "/cf_006.jpg", "/cf_007.jpg", "/cf_008.jpg", "/cf_009.jpg", "/cf_010.jpg",
+      "/cf_011.jpg", "/cf_012.jpg", "/cf_013.jpg", "/cf_014.jpg", "/cf_015.jpg",
+      "/cf_016.jpg", "/cf_017.jpg", "/cf_018.jpg", "/cf_019.jpg", "/cf_020.jpg",
+      "/cf_021.jpg", "/cf_022.jpg", "/cf_023.jpg", "/cf_024.jpg", "/cf_025.jpg",
+      "/cf_026.jpg", "/cf_027.jpg", "/cf_028.jpg", "/cf_029.jpg", "/cf_030.jpg",
+      "/cf_031.jpg", "/cf_032.jpg", "/cf_033.jpg", "/cf_034.jpg", "/cf_035.jpg",
+      "/cf_036.jpg", "/cf_037.jpg", "/cf_038.jpg", "/cf_039.jpg", "/cf_040.jpg",
+      "/cf_041.jpg", "/cf_042.jpg", "/cf_043.jpg", "/cf_044.jpg", "/cf_045.jpg",
+      "/cf_046.jpg", "/cf_047.jpg", "/cf_048.jpg", "/cf_049.jpg", "/cf_050.jpg",
+      "/cf_051.jpg", "/cf_052.jpg", "/cf_053.jpg", "/cf_054.jpg", "/cf_055.jpg",
+      "/cf_056.jpg", "/cf_057.jpg", "/cf_058.jpg", "/cf_059.jpg", "/cf_060.jpg",
+      "/cf_061.jpg", "/cf_062.jpg", "/cf_063.jpg", "/cf_064.jpg", "/cf_065.jpg",
+      "/cf_066.jpg", "/cf_067.jpg", "/cf_068.jpg", "/cf_069.jpg", "/cf_070.jpg",
+      "/cf_071.jpg", "/cf_072.jpg", "/cf_073.jpg", "/cf_074.jpg", "/cf_075.jpg",
+      "/cf_076.jpg", "/cf_077.jpg", "/cf_078.jpg"
+    ]
+  },
+
 { 
     title: "Birthdays", 
-    slug: "birthdays", 
+    slug: "Baby shoots", 
     category: "Celebration", 
     // Assuming the cover is also .jpeg based on your request
     coverImage: "/w_bday1.jpeg", 
@@ -101,7 +126,7 @@ export const ALBUMS: Album[] = [
       "/w_bday42.jpeg", "/w_bday43.jpeg", "/w_bday44.jpeg", "/w_bday45.jpeg"
     ]
   },
-  { title: "Cultural Fests", slug: "cultural-fests", category: "Events", coverImage: "https://picsum.photos/800/600?random=11" },
+
   { title: "Model Shoots", slug: "model-shoots", category: "Fashion", coverImage: "https://picsum.photos/800/600?random=13" },
   { title: "Corporate Events", slug: "events", category: "Corporate", coverImage: "https://picsum.photos/800/600?random=12" },
   { title: "Weddings", slug: "weddings", category: "Wedding", coverImage: "https://picsum.photos/800/600?random=10" },
