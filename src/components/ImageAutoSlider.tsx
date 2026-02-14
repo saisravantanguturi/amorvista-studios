@@ -1,12 +1,14 @@
 import React from 'react';
 
+// I replaced the broken Unsplash links with your actual portfolio images!
+// You can change these file names later if you want different photos here.
 const IMAGES = [
-  'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1554048612-387768052bf7?q=80&w=2072&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1964&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2071&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1531297461136-82lw8a9277c0?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop',
+  '/cf_015.JPG',
+  '/cor_070.jpg',
+  '/md_001.JPG',
+  '/naa_001.jpg',
+  '/1.1.jpg',
+  '/w_bday1.jpeg',
 ];
 
 const ImageAutoSlider: React.FC = () => {
